@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocXToPDFConverterCoordinator", "DocXToPDFConverterCoordinator\DocXToPDFConverterCoordinator.csproj", "{C4ACBB11-B332-433E-AA07-4C72FD22CDA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocXToPDFConverterWorker", "DocXToPDFConverterWorker\DocXToPDFConverterWorker.csproj", "{F507F5B9-1B7D-45E7-AC7E-04F58616BD3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocXToPDFConverterContracts", "DocXToPDFConverterContracts\DocXToPDFConverterContracts.csproj", "{A83FFD89-6BEC-4158-8FDF-D971A7089659}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocXToPDFConverterUtils", "DocXToPDFConverterUtils\DocXToPDFConverterUtils.csproj", "{B9D57177-500A-483E-9004-8727164CBF54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleClient", "SampleClient\SampleClient.csproj", "{F50BA92C-C47A-4258-A0C1-AE0A91245794}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4ACBB11-B332-433E-AA07-4C72FD22CDA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4ACBB11-B332-433E-AA07-4C72FD22CDA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4ACBB11-B332-433E-AA07-4C72FD22CDA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4ACBB11-B332-433E-AA07-4C72FD22CDA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F507F5B9-1B7D-45E7-AC7E-04F58616BD3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F507F5B9-1B7D-45E7-AC7E-04F58616BD3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F507F5B9-1B7D-45E7-AC7E-04F58616BD3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F507F5B9-1B7D-45E7-AC7E-04F58616BD3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A83FFD89-6BEC-4158-8FDF-D971A7089659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A83FFD89-6BEC-4158-8FDF-D971A7089659}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A83FFD89-6BEC-4158-8FDF-D971A7089659}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A83FFD89-6BEC-4158-8FDF-D971A7089659}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9D57177-500A-483E-9004-8727164CBF54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9D57177-500A-483E-9004-8727164CBF54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9D57177-500A-483E-9004-8727164CBF54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9D57177-500A-483E-9004-8727164CBF54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F50BA92C-C47A-4258-A0C1-AE0A91245794}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F50BA92C-C47A-4258-A0C1-AE0A91245794}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F50BA92C-C47A-4258-A0C1-AE0A91245794}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F50BA92C-C47A-4258-A0C1-AE0A91245794}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B551C7E-9BF1-45C4-AC0F-AFC81322DE5B}
+	EndGlobalSection
+EndGlobal
